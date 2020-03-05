@@ -1,0 +1,16 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: skyblue;
+}
+
+img {
+  border: 3px solid blue;
+  width: 250px;
+  height: 200px;
+  transform: rotate(90deg);
+  float: left;
+  margin:20px;
+}
