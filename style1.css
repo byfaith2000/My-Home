@@ -1,0 +1,179 @@
+html, body, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+
+}
+img {
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	padding: 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+	color: #8F6A2B;
+	font-weight: bold;
+	text-decoration: none;
+}
+}
+body {
+	background: url(images/bg.jpg) repeat-x;
+	text-align: center;
+	font: 11px arial, sans-serif;
+	color: #5D5D5D;
+}
+#wrapper {
+	text-align: left;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	background: url(images/header.jpg) no-repeat;
+	width: 190px;
+	height: 75px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	padding-top: 35px;
+	color: white;
+	font: 32px "Lucida Handwriting", "Lucida Calligraphy", verdana, arial, sans-serif;
+}
+
+#nav {
+	width: 190px;
+	position: absolute;
+	top: 120px;
+	left: 0;
+	background: url(images/nav_bg.jpg) repeat-y;
+}
+#nav ul {
+	margin: 0;
+	padding: 37px 0 45px 22px;
+	font: 12px "Times new roman", "Lucida Grande", serif;
+	background: bottom left url(images/nav_bot.gif) no-repeat;
+}
+#nav li {
+	margin: 11px;
+	padding: 0 0 0 40px;
+	list-style: none;
+	background: top left url(images/bullet_white.gif) no-repeat;
+}
+#nav a {
+	font-weight: normal;
+	color: white;
+}
+
+#body {
+	position: absolute;
+	width: 427px;
+	top: 0;
+	left: 259px;
+	background: white;
+	overflow: hidden;
+}
+#body .i {
+	padding: 69px 45px 84px 74px;
+}
+#head-top {
+	position: absolute;
+	top: 0;
+	left: 259px;
+	width: 600px;
+	height: 24px;
+	z-index: 2;
+	padding-left: 16px;
+	background-color: #d9d9d9
+}
+#body ul {
+	margin: 0;
+	padding: 0;
+}
+#body li {
+	margin: 1em 0;
+	list-style: none;
+	padding: 0 0 0 30px;
+	background: top left url(images/bullet_orange.gif) no-repeat;
+}
+#contents1 {
+	text-align: left;
+	position: absolute;
+    top: 48px;
+	left: 223px;
+	width: 600px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: gray;
+}
+
+#positive1 {
+    position: absolute;
+    top: 41px;
+    left: 259px;
+    width: 600px;
+    height: 425px;
+    z-index: 2;
+    padding-left: 16px;
+	border: 1px solid gold;
+	line-height: 200%;
+}
+
+#positive2 {
+    position: absolute;
+    top: 42px;
+    left: 259px;
+    width: 600px;
+    height: 742px;
+    z-index: 2;
+    padding-left: 16px;
+    border: 1px solid #01DF01;
+    line-height: 150%;
+}
+#promise1 {
+    position: absolute;
+	top: 32px;
+    left: 229px;
+    width: 600px;
+    height: 103px;
+    z-index: 2;
+    padding-left: 16px;
+    line-height: 200%;
+}
+#promise2 {
+    position: absolute;
+	top: 92px;
+    left: 242px;
+    width: 600px;
+    height: 125px;
+    z-index: 2;
+    padding-left: 16px;
+	border: 1px solid;
+    line-height: 200%;
+}
+#promise3 {
+    position: absolute;
+	top: 232px;
+    left: 229px;
+    width: 600px;
+    height: 103px;
+    z-index: 2;
+    padding-left: 16px;
+    line-height: 200%;
+}
+#promise4 {
+    position: absolute;
+	top: 292px;
+    left: 242px;
+    width: 600px;
+    height: 105px;
+    z-index: 2;
+    padding-left: 16px;
+	border: 1px solid;
+	line-height: 200%;
+}
